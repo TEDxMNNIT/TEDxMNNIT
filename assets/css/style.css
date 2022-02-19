@@ -381,6 +381,12 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
 }
+.vl{
+  border-left: 3px solid black;
+  height: 50px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 60px;
@@ -392,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h2 {
   color: red;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -408,8 +414,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.5px;
   display: inline-block;
   padding: 10px 28px;
-  margin-left: 30vh;
-  margin-top: 5vh;
+  margin-top: 3vh;
   transition: 0.5s;
   border: 2px solid black;
   color: black;
@@ -444,10 +449,24 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#buy-ticket h1{
+  font-size: 36px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  line-height: 30px;
+  color: black;
+}
+#buy-ticket h2{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-.about-head1{
+.section-head1{
 font-family: Playfair Display;
 font-style: normal;
 font-weight: 500;
@@ -457,8 +476,9 @@ text-align: center;
 margin-bottom: 5vh;
 }
 .about-cards{
-  border: #919191;
+  border: black;
   border-radius: 5px;
+  margin: 2vh;
 }
 section {
   padding: 60px 0;
