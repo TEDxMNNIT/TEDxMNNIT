@@ -94,19 +94,26 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
+  <div id="vants">
   <section id="hero" class="h-100">
   <div class="container">
     <div class="row">
       <div class="col position-relative" data-aos="fade-up" data-aos-delay="250">
-        <div class="row d-flex-column">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-instagram"></a>
+        <div class="row">
+      <div class="col-2 d-flex justify-content-start align-items-center">
+        <div class="d-flex flex-column">
+        <a href="#" style="margin-bottom:2vh;" class="fa fa-facebook "></a>
+        <a href="#" style="margin-bottom:2vh;" class="fa fa-twitter "></a>
+        <a href="#" style="margin-bottom:2vh;" class="fa fa-instagram "></a>
+      </div>
         </div>
-        <div class="">
+        <div class="col-10">
         <img src="assets/img/08.jpg" />
         </div>
-      </div>
+
+        </div>
+      
+    </div>
       <div class="col d-flex  justify-content-center align-items-center position-relative" data-aos="fade-up" data-aos-delay="250">
         <div class="d-flex flex-column align-items-center">
         <div class="vl"></div>
@@ -145,7 +152,7 @@
         <div class="card" style="width: 24rem;" data-aos="fade-right">
           <br>
           <div class="card-body about-cards">
-            <img src="/assets/img/tedxmnnit-logo.jpg" >
+            <img src="/assets/img/tedxmnnit logo.png" style="max-height: 80px; max-width: 160px; margin-bottom: 2vh;">
             <p class="card-text">Institutions in India foster ground-breaking research, extraordinary ideas, and remarkable people, TEDxMNNIT looks forward to showcasing this brilliance and enabling these great ideas to be put into action.</p>
           </div>
         </div>
@@ -153,24 +160,24 @@
       </div>
     </section>
     <section id="buy-ticket">
-      <div class="section-title">
+      <div class="section-title" data-aos="fade-up">
         <span>Buy Tickets</span>
         <h2>Buy Tickets</h2>
       </div>
-      <div class="container d-flex justify-content-center align-items-center">
-        <div class="col position-relative">
+      <div class="container d-flex justify-content-around align-items-center">
+        <div class="col-md position-relative d-flex justify-content-center" data-aos="fade-left">
           <img src="/assets/img/12.jpg">
         </div>
-        <div class="col position-relative">
-          <div class="p-2">
+        <div class="col-md position-relative">
+          <div class="p-2" data-aos="fade-up">
           <h1>Join us for</h1>
           <h1 style="color: #E62B1E;">Ideas Worth Sharing</h1>
-        </div>
-        <div class="p-2">
-          <h2><span style="color: #E62B1E;">DATE:</span> 09th APRIL 2022</h2>
-          <h2><span style="color: #E62B1E;">TIME:</span> 10:00 AM TO 3:00 PM</h2>
-          <h2><span style="color: #E62B1E;">VENUE:</span> SEMINAR HALL, MNNIT ALLAHABAD</h2>
-          <h2><span style="color: #E62B1E;">SCHEDULE:</span> TO BE NOTIFIED SOON</h2>
+          <div class="p-2" data-aos="fade-up">
+            <h2><span style="color: #E62B1E;">DATE:</span> 09th APRIL 2022</h2>
+            <h2><span style="color: #E62B1E;">TIME:</span> 10:00 AM TO 3:00 PM</h2>
+            <h2><span style="color: #E62B1E;">VENUE:</span> SEMINAR HALL, MNNIT ALLAHABAD</h2>
+            <h2><span style="color: #E62B1E;">SCHEDULE:</span> TO BE NOTIFIED SOON</h2>
+          </div>
         </div>
         </div>
       </div>
@@ -651,7 +658,7 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-
+  </div>
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
@@ -736,7 +743,26 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-
+  <script src="assets/vendor/vanta.js/three.r119.min.js"></script>
+  <script src="assets/vendor/vanta.js/vanta.bird.min.js"></script>
+  <script>
+    VANTA.BIRDS({
+      el: "#vats",
+      mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  backgroundColor: 0xffffff,
+  color2: 0x0,
+  birdSize: 0.50,
+  alignment: 16.00,
+  cohesion: 17.00,
+  quantity: 3.00
+    })
+    </script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
