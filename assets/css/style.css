@@ -575,11 +575,11 @@ section {
 .year-title-bg{
   position: absolute;
   top: 30px;
-  font-family: Playfair Display;
+   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
-  font-size: 52px;
-  color: #f4f4f4;
+  font-size: 52px; 
+  color:#bababa;
   /* text-transform: uppercase; */
   line-height: 0;
 }
@@ -589,7 +589,7 @@ section {
   color: #E62B1E;
   font-family: Lato;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 20px;
   line-height: 19px;
   z-index: 2;
@@ -601,7 +601,6 @@ section {
 font-style: normal;
 font-weight: 500;
 font-size: 32px;
-line-height: 43px;
 }
 .past-event-flip{
  display: flex;
