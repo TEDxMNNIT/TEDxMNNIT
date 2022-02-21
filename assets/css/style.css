@@ -384,6 +384,7 @@ h1, h2, h3, h4, h5, h6 {
 .vl{
   border-left: 3px solid black;
   height: 50px;
+  /* width: 50px; */
   margin-top: 5vh;
   margin-bottom: 5vh;
 }
@@ -463,6 +464,56 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   line-height: 22px;
 }
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card-title-speaker{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 500;
+}
+.card-text-speaker{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(35, 31, 32, 0.6);
+}
+.card img {
+  width: auto;
+  height: 50%;
+  margin: 1.5vh;
+}
+.card-image-top{
+  align-items: center;
+  /* margin: 5vh;; */
+}
+.card {
+  margin: 0 0.5em;
+  /* box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); */
+  border: 1px solid #E5E5E5;
+  /* border: gray;
+  border-width: 2px;
+  border-radius: 5px; */
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -516,6 +567,45 @@ section {
   margin-bottom: 0;
   position: relative;
   z-index: 2;
+}
+.year-title{
+  padding: 20px 0;
+  position: relative;
+}
+.year-title-bg{
+  position: absolute;
+  top: 30px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  color: #f4f4f4;
+  /* text-transform: uppercase; */
+  line-height: 0;
+}
+.year-title p{
+  margin-bottom: 0;
+  position: relative;
+  color: #E62B1E;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 19px;
+  z-index: 2;
+}
+.past-events h2{
+  position: relative;
+  color: #E62B1E;
+  font-family: Playfair Display;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 43px;
+}
+.past-event-flip{
+ display: flex;
+ flex-direction: row-reverse;
 }
 @media (max-width: 575px) {
   .section-title h2 {
