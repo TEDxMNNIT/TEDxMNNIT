@@ -542,9 +542,10 @@ section {
   position: relative;
 }
 .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #191919;
@@ -638,7 +639,44 @@ font-size: 32px;
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.year-title{
+  padding: 20px 0;
+  position: relative;
+}
+.year-title-bg{
+  position: absolute;
+  top: 30px;
+   font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px; 
+  color:#bababa;
+  /* text-transform: uppercase; */
+  line-height: 0;
+}
+.year-title p{
+  margin-bottom: 0;
+  position: relative;
+  color: #E62B1E;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 19px;
+  z-index: 2;
+}
+.past-events h2{
+  position: relative;
+  color: #E62B1E;
+  font-family: Playfair Display;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+}
+.past-event-flip{
+ display: flex;
+ flex-direction: row-reverse;
+}
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -967,6 +1005,20 @@ font-size: 32px;
   text-transform: uppercase;
   font-weight: 600;
   color: #191919;
+}
+.pricing h2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+.pricing h1 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  line-height: 30px;
+  color: black;
 }
 .pricing .box h4 {
   font-size: 42px;
