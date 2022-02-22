@@ -150,13 +150,13 @@ a:hover {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(25, 25, 25, 0.95);
+  background: rgba(255, 255, 255, 0.95);
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
 }
 #header.fixed-top {
-  background: #191919;
+  background: #ffffff;
 }
 #header .logo {
   font-size: 30px;
@@ -176,6 +176,11 @@ a:hover {
 
 .scrolled-offset {
   margin-top: 70px;
+}
+@media only screen and (max-width: 200px){
+ .logo  .hello{
+      display: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -204,9 +209,16 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 15px 24px 15px;
-  font-size: 14px;
-  color: #fff;
+  padding: 25px 65px 24px 65px;
+  font-size: 18px;
+
+  line-height: 22px;
+  line-height: 100%;
+  vertical-align: top;
+  align-items: right;
+
+  font-family: Lato;
+  color: rgb(0, 0, 0);
   white-space: nowrap;
   transition: 0.3s;
 }
