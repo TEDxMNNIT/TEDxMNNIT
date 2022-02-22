@@ -1230,9 +1230,9 @@ font-size: 32px;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0c0c0c;
+  background: #ffffff;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 14px;
 }
 #footer .footer-top {
@@ -1240,9 +1240,9 @@ font-size: 32px;
 }
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #191919;
-  color: #fff;
-  border-top: 4px solid #cc1616;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border-top: 2px solid #000000;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1251,19 +1251,19 @@ font-size: 32px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 200;
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #262626;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1275,13 +1275,13 @@ font-size: 32px;
 }
 #footer .footer-top .social-links a:hover {
   background: #cc1616;
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: rgb(0, 0, 0);
   position: relative;
   padding-bottom: 12px;
 }
@@ -1308,7 +1308,7 @@ font-size: 32px;
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1338,7 +1338,7 @@ font-size: 32px;
   font-size: 16px;
   padding: 0 20px;
   background: #cc1616;
-  color: #fff;
+  color: rgb(0, 0, 0);
   transition: 0.3s;
   border-radius: 4;
 }
@@ -1354,7 +1354,7 @@ font-size: 32px;
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 #footer .credits a {
   color: #e82d2d;
