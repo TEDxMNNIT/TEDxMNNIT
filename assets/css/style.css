@@ -557,6 +557,9 @@ section {
   /* padding: 0;
   margin: 0; */
 }
+.card-gap{
+  margin-top: 10px;
+}
 .year-title-bg{
   position: absolute;
   top: 30px;
