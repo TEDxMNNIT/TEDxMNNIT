@@ -41,9 +41,22 @@
 </head>
 
 <body>
-
-  
-
+  <div class="vats" id="vats">
+  </div>
+  <!-- <div data-spy="scroll" data-target="#myscroll" data-offset="0" class="scrollspy-example">
+    <h4 id="list-item-1">Item 1</h4>
+    <h4 id="list-item-2">Item 2</h4>
+    <h4 id="list-item-3">Item 3</h4>
+    <h4 id="list-item-4">Item 4</h4>
+  </div>
+  <div class="myscroll">
+    <div id="list-example" class="list-group">
+      <a class="list-group-item list-group-item-action" href="#list-item-1">1</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-2">2</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-3">3</a>
+      <a class="list-group-item list-group-item-action" href="#list-item-4">4</a>
+    </div>
+  </div> -->
   <!-- ======= Top Bar ======= -->
   <!-- <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -118,8 +131,10 @@
     </div>
   </div>
 </section>
-
+  
+  
   <main id="main">
+   
     <section id="about">
       <div class="container">
         <div class="section-title">
@@ -160,19 +175,19 @@
         <div class="container past-events">
           <div class="row justify-content-around">
           <div class="col-md-6 d-flex flex-column justify-content-evenly align-content-center">
-            <div class="year-title">
+            <div class="year-title" data-aos="fade-up">
               <div class="year-title-bg">2018</div>
                 <p class="year-title-p">________ &nbsp 8th April</p>
             </div>
             <div>
-            <h2 class="" style="color:#E62B1E;">Behind The Curtains</h2>
-            <p class="year-section-p">
+            <h2 class="" style="color:#E62B1E;" data-aos="fade-up">Behind The Curtains</h2>
+            <p class="year-section-p" data-aos="zoom-in">
               Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker? 
             </p>
           </div>
           </div>
           <div class="col-md-4 d-flex flex-column justify-content-evenly align-content-center">
-            <img src="assets/img/07.jpg">
+            <img class="image-fluid" data-aos="fade-left" src="assets/img/07.jpg">
           </div>
           </div>
           
@@ -209,23 +224,22 @@
         <div class="container past-events">
           <div class="row justify-content-around past-event-flip">
           <div class="col-md-6 d-flex flex-column justify-content-evenly align-content-center">
-            <div class="year-title">
+            <div class="year-title" data-aos="fade-up">
               <div class="year-title-bg">2017</div>
                 <p class="year-title-p">________ &nbsp 2nd April</p>
             </div>
             <div>
-            <h2 class="" style="color:#E62B1E;">Indian Paradigm Shift</h2>
-            <p class="year-section-p">
+            <h2 class="" style="color:#E62B1E;" data-aos="fade-up">Indian Paradigm Shift</h2>
+            <p class="year-section-p" data-aos="zoom-in">
               Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker? 
             </p>
             </div>
           </div>
           <div class="col-md-4 d-flex flex-column justify-content-evenly align-content-center">
-            <img src="assets/img/04.jpg">
+            <img class="image-fluid" src="assets/img/04.jpg" data-aos="fade-right">
           </div>
-          </div>
-          
-        <div class="container" style="margin-top: 5%;">
+          </div>      
+        <div class="container p-5" style="margin-top: 5%;">
           <h4>Speakers</h4>
           <div class="row">
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
@@ -762,8 +776,8 @@
   <script src="assets/vendor/vanta.js/vanta.bird.min.js"></script>
   <script>
     VANTA.BIRDS({
-      el: "#vats",
-      mouseControls: true,
+  el: "#vats",
+  mouseControls: true,
   touchControls: true,
   gyroControls: false,
   minHeight: 200.00,
@@ -772,9 +786,8 @@
   scaleMobile: 1.00,
   backgroundColor: 0xffffff,
   color2: 0x0,
-  birdSize: 0.50,
-  alignment: 16.00,
-  cohesion: 17.00,
+  birdSize: 0.70,
+  wingSpan: 17.00,
   quantity: 3.00
     })
     </script>
