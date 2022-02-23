@@ -181,11 +181,7 @@ a:hover {
 .scrolled-offset {
   margin-top: 70px;
 }
-@media only screen and (max-width: 200px){
- .logo  .hello{
-      display: none;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -239,6 +235,8 @@ a:hover {
   border: 2px solid black;
   opacity: 100%;
 }
+
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -266,6 +264,7 @@ a:hover {
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #fff;
 }
+
 .navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
@@ -344,7 +343,7 @@ a:hover {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: rgb(160, 52, 52);
+  background-color: #cc1616;
   overflow-y: auto;
   transition: 0.3s;
   text-decoration: solid;
@@ -355,7 +354,7 @@ a:hover {
   color: #ffffff;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #cc1616;
+  color: #000000;
   background: none;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
@@ -1246,25 +1245,32 @@ font-size: 32px;
 --------------------------------------------------------------*/
 #footer {
   background: #ffffff;
-  padding: 105px 105px 105px 105px;
   color: rgb(0, 0, 0);
-  font-size: 14px;
+  font-size: 20px;
   position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
 #footer .footer-top {
-  padding: 60px 45px 30px 45px;
+  padding: 30px 45px 30px 45px;
 }
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
+  margin-left: 50px;
+  margin-right: 100px;
   background: #ffffff;
   color: rgb(0, 0, 0);
-  border-top: 2px solid #000000;
   text-align: center;
   padding: 30px 20px;
 }
 #footer .footer-top .footer-info h3 {
   font-size: 36px;
-  margin: 0 200px 20px 0;
+  margin: 0 20px 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 200;
@@ -1282,7 +1288,7 @@ font-size: 32px;
   color: rgb(0, 0, 0);
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 40px;
   border-radius: 50%;
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -1292,7 +1298,7 @@ font-size: 32px;
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #cc1616;
+  background: #000000;
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: "Lato", sans-serif;
@@ -1307,84 +1313,7 @@ font-size: 32px;
   font-family: "Lato", sans-serif;
 
 }
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-#footer .footer-top .footer-links ul i {
-  padding-right: 2px;
-  color: #ed5b5b;
-  font-size: 18px;
-  line-height: 1;
-}
-#footer .footer-top .footer-links ul li {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-}
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-#footer .footer-top .footer-links ul a {
-  color: rgb(0, 0, 0);
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
-}
-#footer .footer-top .footer-links ul a:hover {
-  color: #eb4444;
-}
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4;
-}
-#footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-#footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  font-family: "Lato", sans-serif;
 
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #cc1616;
-  color: rgb(0, 0, 0);
-  transition: 0.3s;
-  border-radius: 4;
-}
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #e82d2d;
-}
-#footer .copyright {
-  border-top: 1px solid #262626;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-
-  padding-top: 30px;
-}
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: rgb(0, 0, 0);
-}
-#footer .credits a {
-  color: #e82d2d;
-}
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
