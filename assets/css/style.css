@@ -9,17 +9,17 @@
 # General
 --------------------------------------------------------------*/
 body {
-  color: #444444;
+  color: black;
   font-family: 'Playfair Display', serif;
 }
 
 a {
-  color: #cc1616;
+  color: #E62B1E;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e82d2d;
+  color: #E62B1E;
   text-decoration: none;
 }
 
@@ -229,7 +229,7 @@ a:hover {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  background: #e04040;
+  background: #E62B1E;
   color: white;
   transition: 0.5s;
   /* border: 2px solid black; */
@@ -423,7 +423,7 @@ a:hover {
   text-align: center;
 }
 #hero h2 {
-  color: red;
+  color: #E62B1E;
   margin-bottom: 10px;
   font-family: Lato;
   font-style: normal;
@@ -448,8 +448,8 @@ a:hover {
   max-width: 25vh;
 }
 #hero .btn-get-started:hover {
-  background: #cc1616;
-  border-color: #cc1616;
+  background: #E62B1E;
+  border-color: #E62B1E;
   color: white;
 }
 @media (min-width: 1024px) {
