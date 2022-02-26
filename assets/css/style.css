@@ -299,7 +299,7 @@ a:hover {
 * Mobile Navigation
 */
 .mobile-nav-toggle {
-  color: rgb(0, 0, 0);
+  color: #E62B1E;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -326,7 +326,7 @@ a:hover {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: white;
   transition: 0.3s;
   z-index: 999;
 }
@@ -343,7 +343,7 @@ a:hover {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #cc1616;
+  background-color: white;
   overflow-y: auto;
   transition: 0.3s;
   text-decoration: solid;
@@ -351,10 +351,10 @@ a:hover {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #ffffff;
+  color: #E62B1E;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #000000;
+  color: #E62B1E;
   background: none;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
@@ -1347,7 +1347,7 @@ font-size: 32px;
   align-items:center;
   justify-content:space-between
 }
-@media(max-width:767px)
+@media(max-width:991px)
 {
   .side-navigation{display:none}
 }
