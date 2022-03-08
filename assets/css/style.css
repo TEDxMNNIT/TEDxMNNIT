@@ -506,6 +506,9 @@ margin-bottom: 5vh;
   border-radius: 5px;
   margin: 2vh;
 }
+.about-cards .card-text{
+  font-family: Lato;
+}
 section {
   padding: 60px 0;
   overflow: hidden;
