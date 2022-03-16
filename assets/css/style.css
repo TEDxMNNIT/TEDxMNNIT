@@ -1441,3 +1441,20 @@ color: rgba(35, 31, 32, 0.6);
   overflow-y: hidden;
   
 }
+.buy-ticket-heading h1{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 43px;
+}
+@media (max-width: 768px) {
+  #hero-icons {
+    display: none !important;
+  }
+}
+/* @media (min-width: 992px) {
+  .hero-icons {
+    display: block;
+  }
+} */
