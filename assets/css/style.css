@@ -548,13 +548,13 @@ section {
   z-index: 2;
 }
 @media (max-width: 575px) {
-  .section-title h2 {
+  /* .section-title h2 {
     font-size: 28px;
     margin-bottom: 15px;
   }
   .section-title span {
     font-size: 38px;
-  }
+  } */
 }
 .vats{
   top: 0;
