@@ -361,8 +361,9 @@ a:hover {
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
-  color: #E62B1E;
+  font-size: 25px;
+  color: #f30303;
+  text-emphasis: bold;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #E62B1E;
