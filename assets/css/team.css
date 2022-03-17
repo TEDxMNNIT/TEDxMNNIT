@@ -9,16 +9,21 @@ body{
 .single_team_content{
 padding:45px;
 margin-top:60px;
+text-align: center;
 }
 .single_team_content h1 {
 	font-size: 50px;
 	font-weight: 600;
 	line-height: 60px;
+text-align: center;
+
 }
 .single_team_content p{}
 .our-team {
 	margin-bottom: 30px;
 	box-shadow: 0 20px 60px 20px rgba(0,64,128,.09);
+text-align: center;
+
 }
 .our-team .team_img{
     position: relative;
