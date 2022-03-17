@@ -41,6 +41,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
+<style type="text/css"> 
+
+  .mobileHide { display: none;} 
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px){  .mobileHide { display: inline;}} 
+</style> 
 
 </head>
 
@@ -68,7 +76,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-    
+      
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -85,13 +93,19 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
+      <div class="mobileHide"> 
+        <img class="mobileHide" src="assets/img/tedxmnnit logo.png" alt="" style="max-width: 240px;">
+        </div> 
 
     </div>
-  </header><!-- End Header -->
 
+  </header><!-- End Header -->
+ 
   <!-- ======= Hero Section ======= -->
   <div id="vants">
+    
   <section id="hero" class="h-100">
+    
   <div class="container">
     <div class="row">
       <div class="col-md position-relative" data-aos="fade-up" data-aos-delay="250">
@@ -110,6 +124,7 @@
         </div>
       
     </div>
+    <img class="mobileShow"  height="50" src="assets/img/tedxmnnit logo.png" style="display: none;" width="250">
       <div class="col-md d-flex  justify-content-center align-items-center position-relative" data-aos="fade-up" data-aos-delay="250">
         <div class="d-flex flex-column align-items-center">
         <div class="vl"></div>
