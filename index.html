@@ -47,8 +47,14 @@
   /* Smartphone Portrait and Landscape */ 
   @media only screen 
   and (min-device-width : 110px) 
-  and (max-device-width : 480px){  .mobileHide { display: inline;}} 
+  and (max-device-width : 975px){  .mobileHide { display: inline; align-self: center;}} 
 </style> 
+<!-- <style>
+  .mobileHide {
+    text-align: center;
+    display: block;
+  }
+</style> -->
 
 </head>
 
@@ -69,16 +75,14 @@
         <a class="menu-item nav-link scrollto" href="#team"><span></span></a>
         <a class="menu-item nav-link scrollto" href="#portfolio"><span></span></a>
         <a class="menu-item nav-link scrollto" href="#pricing"><span></span></a>
-      </div></div>
+      </div ></div>
   </div> 
 
   <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
+  <header id="header" class="d-flex align-items-center justify-content-center">
+    <div class="container d-flex align-items-center justify-content-between p-0">
 
-      
-
-      <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar" >
         <ul>
           <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
@@ -93,32 +97,12 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-     
-        
-         
-        
-       <style>
-         #moblogo{
-           position:absolute;
-           right: 50%;
-         }
-         #mobileWalaLogo{
-           background-image: url("/assets/img/tedxmnnit\ logo.png");
-           /* background-color: black; */
-           width: 80px;
-           height: 40px;
-         }
-       </style>
-      <div id="moblogo" class="mobileHide" style=""> 
-        <div class="row justify-content-center">
-          <div id="mobileWalaLogo"></div>
-          
-        </div>
-        <!-- <a class=" "  href="#" style="margin-left: auto; margin-right: auto;">
-          <img  src="assets/img/tedxmnnit logo.png" style=" max-width: 240px; margin-left: auto ; margin-right: auto;">
-        </a> -->
-        <!-- <img class="mobileHide" src="assets/img/tedxmnnit logo.png" alt="" style="z-index: 88; margin-left: 60px; max-width: 240px;"> -->
-        </div> 
+      <div class="mobileHide" > 
+        <img class="mobileHide" src="assets/img/tedxmnnit logo.png" alt="" style="max-width: 180px;">
+      </div> 
+      <div class="p-4">
+
+      </div>
 
     </div>
 
@@ -523,12 +507,13 @@
   </div>
 
   <div class="container" style="margin-left: 6%;margin-right: 6%;">
-  <hr style="color: grey; opacity: 80%; ">
+  
   </div>
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
+        <hr style="color: grey; opacity: 80%; ">
         <div class="row d-flex justify-content-between">
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
