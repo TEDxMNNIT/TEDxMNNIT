@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 .team_member {
-    background: white;
+    /* background: white; */
 	padding-bottom: 50px;
 	overflow: hidden;
 }
