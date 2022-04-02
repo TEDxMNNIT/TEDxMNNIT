@@ -56,6 +56,11 @@ a:hover {
   height: 40px;
   transition: all 0.4s;
 }
+@media (max-width:641px) {
+  .back-to-top{
+    right: 30px;
+  }
+}
 .back-to-top i {
   font-size: 28px;
   color: #fff;
