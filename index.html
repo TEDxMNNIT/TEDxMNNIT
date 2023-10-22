@@ -1,260 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<title>TEDxMNNIT</title>
+		<meta content="" name="description" />
+		<meta content="" name="keywords" />
 
-  <title>TEDxMNNIT</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+		<!-- Favicons -->
+		<link href="assets/img/fav/android-icon-192x192.png" rel="icon" />
+		<link
+			href="assets/img/fav/android-icon-192x192.png"
+			rel="apple-touch-icon"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+			integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+			integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+			integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- Google Fonts -->
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato:wght@400;700;900&family=Playfair+Display&display=swap");
+		</style>
 
-  <!-- Favicons -->
-  <link href="assets/img/fav/android-icon-192x192.png" rel="icon">
-  <link href="assets/img/fav/android-icon-192x192.png" rel="apple-touch-icon">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
-    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
-    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Google Fonts -->
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lato:wght@400;700;900&family=Playfair+Display&display=swap');
-  </style>
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+			rel="stylesheet"
+		/>
 
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+		<!-- Vendor CSS Files -->
+		<link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+		<link
+			href="assets/vendor/bootstrap/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+			rel="stylesheet"
+		/>
+		<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+		<link
+			href="assets/vendor/glightbox/css/glightbox.min.css"
+			rel="stylesheet"
+		/>
+		<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Template Main CSS File -->
+		<link href="assets/css/style.css" rel="stylesheet" />
 
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+		<style type="text/css">
+			.mobileHide {
+				display: none;
+			}
 
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <style type="text/css">
-    .mobileHide {
-      display: none;
-    }
-
-    /* Smartphone Portrait and Landscape */
-    @media only screen and (min-device-width : 110px) and (max-device-width : 975px) {
-      .mobileHide {
-        display: inline;
-        align-self: center;
-      }
-    }
-  </style>
-  <!-- <style>
+			/* Smartphone Portrait and Landscape */
+			@media only screen and (min-device-width: 110px) and (max-device-width: 975px) {
+				.mobileHide {
+					display: inline;
+					align-self: center;
+				}
+			}
+		</style>
+		<!-- <style>
   .mobileHide {
     text-align: center;
     display: block;
   }
 </style> -->
+	</head>
 
-</head>
-
-<body>
-  <div class="vats" id="vats">
-  </div>
-  <!-- <div data-spy="scroll" data-target="#myscroll" data-offset="0" class="scrollspy-example">
+	<body>
+		<div class="vats" id="vats"></div>
+		<!-- <div data-spy="scroll" data-target="#myscroll" data-offset="0" class="scrollspy-example">
     <h4 id="list-item-1">Item 1</h4>
     <h4 id="list-item-2">Item 2</h4>
     <h4 id="list-item-3">Item 3</h4>
     <h4 id="list-item-4">Item 4</h4>
   </div> -->
-  <div class="myscroll">
-    <div class="side-navigation">
-      <div class="menu" id="menu">
-        <a class="menu-item nav-link active scrollto" href="#hero"><span></span></a>
-        <a class="menu-item nav-link scrollto" href="#about"><span></span></a>
-        <a class="menu-item nav-link scrollto" href="#team"><span></span></a>
-        <a class="menu-item nav-link scrollto" href="#past-team"><span></span></a>
-        <a class="menu-item nav-link scrollto" href="#portfolio"><span></span></a>
-        <a class="menu-item nav-link scrollto" href="#pricing"><span></span></a>
-      </div>
-    </div>
-  </div>
+		<div class="myscroll">
+			<div class="side-navigation">
+				<div class="menu" id="menu">
+					<a class="menu-item nav-link active scrollto" href="#hero"
+						><span></span
+					></a>
+					<a class="menu-item nav-link scrollto" href="#about"><span></span></a>
+					<a class="menu-item nav-link scrollto" href="#team"><span></span></a>
+					<a class="menu-item nav-link scrollto" href="#past-team"
+						><span></span
+					></a>
+					<a class="menu-item nav-link scrollto" href="#portfolio"
+						><span></span
+					></a>
+					<a class="menu-item nav-link scrollto" href="#pricing"
+						><span></span
+					></a>
+				</div>
+			</div>
+		</div>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center justify-content-center">
-    <div class="container d-flex align-items-center justify-content-between p-0">
+		<!-- ======= Header ======= -->
+		<header
+			id="header"
+			class="d-flex align-items-center justify-content-center"
+		>
+			<div
+				class="container d-flex align-items-center justify-content-between p-0"
+			>
+				<nav id="navbar" class="navbar">
+					<ul>
+						<li><a class="nav-link scrollto" href="index.html">Home</a></li>
+						<li><a class="nav-link scrollto" href="#about">About</a></li>
+						<li><a class="nav-link scrollto" href="team.html">Team</a></li>
+						<!-- <li><a class="nav-link scrollto" href="sponsor.html">Sponsors</a></li> -->
+						<li>
+							<h1 class="logo hello">
+								<img
+									id="optionalstuff"
+									src="assets/img/tedxmnnit logo.png"
+									alt=""
+								/>
+							</h1>
+						</li>
+						<li>
+							<a class="nav-link scrollto" href="#past-team">Past Events</a>
+						</li>
+						<li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
+						<!-- <li><a class="nav-link scrollto" href="sponsor.html">Sponsors</a></li> -->
+						<li>
+							<a class="nav-link scrollto" onclick="alert('Coming soon');"
+								>Sponsors</a
+							>
+						</li>
+					</ul>
+					<i class="bi bi-list mobile-nav-toggle"></i>
+				</nav>
+				<!-- .navbar -->
+				<div class="mobileHide">
+					<img
+						class="mobileHide"
+						src="assets/img/tedxmnnit logo.png"
+						alt=""
+						style="max-width: 180px"
+					/>
+				</div>
+				<div class="p-4"></div>
+			</div>
+		</header>
+		<!-- End Header -->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="team.html">Team</a></li>
-          <!-- <li><a class="nav-link scrollto" href="sponsor.html">Sponsors</a></li> -->
-          <li>
-            <h1 class="logo hello">
-              <img id="optionalstuff" src="assets/img/tedxmnnit logo.png" alt="">
-            </h1>
-          </li>
-          <li><a class="nav-link scrollto " href="#past-team">Past Events</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
-          <!-- <li><a class="nav-link scrollto" href="sponsor.html">Sponsors</a></li> -->
-          <li><a class="nav-link scrollto" onclick="alert('Coming soon');">Sponsors</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-      <div class="mobileHide">
-        <img class="mobileHide" src="assets/img/tedxmnnit logo.png" alt="" style="max-width: 180px;">
-      </div>
-      <div class="p-4">
+		<!-- ======= Hero Section ======= -->
+		<div id="vants">
+			<section id="hero" class="h-100">
+				<div class="container">
+					<div class="row">
+						<div
+							class="col-md position-relative"
+							data-aos="fade-up"
+							data-aos-delay="250"
+						>
+							<div class="row">
+								<div
+									class="col-md-2 d-flex justify-content-start align-items-center"
+									id="hero-icons"
+								>
+									<div class="d-flex flex-column">
+										<a
+											href="https://www.facebook.com/TEDxMNNIT"
+											style="color: black"
+											style="margin-bottom: 2vh"
+											class="fa fa-facebook"
+										></a
+										><br />
+										<a
+											href="https://twitter.com/tedxmnnit"
+											style="color: black"
+											style="margin-bottom: 2vh"
+											class="fa fa-twitter"
+										></a
+										><br />
+										<a
+											href="https://www.instagram.com/tedxmnnit/?hl=en"
+											style="color: black"
+											style="margin-bottom: 2vh"
+											class="fa fa-instagram"
+										></a>
+									</div>
+								</div>
+								<div class="col-md-10" style="margin-top: 6vh">
+									<img class="img-fluid" src="assets/img/16.png" />
+								</div>
+							</div>
+						</div>
+						<img
+							class="mobileShow"
+							height="50"
+							src="assets/img/tedxmnnit logo.png"
+							style="display: none"
+							width="250"
+						/>
+						<div
+							class="col-md d-flex justify-content-center align-items-center position-relative"
+							data-aos="fade-up"
+							data-aos-delay="250"
+						>
+							<div class="d-flex flex-column align-items-center">
+								<div class="vl"></div>
+								<h2>19<sup>th</sup> November | MNNIT ALLAHABAD</h2>
+								<h1>Navigating Uncharted Waters</h1>
+								<!-- <a href="https://rzp.io/l/tedxmnnit" class="btn-get-started scrollto">Buy Tickets</a> -->
+								<a
+									onclick="alert('Coming soon');"
+									class="btn-get-started scrollto"
+									>Buy Tickets</a
+								>
+								<div class="vl"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-      </div>
+			<main id="main">
+				<section id="about">
+					<div class="container">
+						<div class="section-title">
+							<h2>About Us</h2>
+						</div>
+						<div class="card-columns row d-flex justify-content-around">
+							<style>
+								.qq {
+									margin-left: auto;
+									margin-right: auto;
+								}
 
-    </div>
+								.mycard {
+									max-width: 400px;
+								}
+							</style>
+							<div class="col col-lg-4 col-sm-12 row justify-content-center">
+								<div
+									class="col mycard card card-gap"
+									style="width: 24rem"
+									data-aos="fade-up"
+								>
+									<div class="card-body about-cards">
+										<!-- <h5 class="card-title">Card title</h5> -->
+										<img src="/assets/img/ted-logo.jpg" style="margin: 2vh" />
+										<br />
+										<p class="card-text">
+											TED is an annual event where the world’s leading thinkers
+											and doers are invited to share their passions. 'TED'
+											stands for Technology. Entertainment. Design: three broad
+											subject areas that are shaping the future.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col col-lg-4 col-sm-12 row justify-content-center">
+								<div
+									class="col mycard card card-gap"
+									style="width: 24rem"
+									data-aos="fade-up"
+								>
+									<div class="card-body about-cards">
+										<img src="/assets/img/tedxlogo.jpg" style="margin: 2vh" />
+										<br />
+										<p class="card-text">
+											In the spirit of ideas worth spreading, TEDx is a program
+											of local, self-organized events that bring people together
+											to share a TED-like experience. These local,
+											self-organized events are branded TEDx.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col col-lg-4 col-sm-12 row justify-content-center">
+								<div
+									class="col mycard card card-gap"
+									style="width: 24rem"
+									data-aos="fade-up"
+								>
+									<br />
+									<div class="card-body about-cards">
+										<img
+											src="/assets/img/tedxmnnit logo.png"
+											style="
+												max-height: 80px;
+												max-width: 160px;
+												margin-bottom: 2vh;
+											"
+										/>
+										<p class="card-text">
+											Institutions in India foster ground-breaking research,
+											extraordinary ideas, and remarkable people, TEDxMNNIT
+											looks forward to showcasing this brilliance and enabling
+											these great ideas to be put into action.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-  </header><!-- End Header -->
+				<section id="team" class="team">
+					<div class="container">
+						<div class="section-title">
+							<h2>The Event</h2>
+						</div>
 
-  <!-- ======= Hero Section ======= -->
-  <div id="vants">
-
-    <section id="hero" class="h-100">
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md position-relative" data-aos="fade-up" data-aos-delay="250">
-            <div class="row">
-              <div class="col-md-2 d-flex justify-content-start align-items-center" id="hero-icons">
-                <div class="d-flex flex-column">
-                  <a href="https://www.facebook.com/TEDxMNNIT" style="color: black;" style="margin-bottom:2vh;"
-                    class="fa fa-facebook "></a><br>
-                  <a href="https://twitter.com/tedxmnnit" style="color: black;" style="margin-bottom:2vh;"
-                    class="fa fa-twitter "></a><br>
-                  <a href="https://www.instagram.com/tedxmnnit/?hl=en" style="color: black;" style="margin-bottom:2vh;"
-                    class="fa fa-instagram "></a>
-                </div>
-              </div>
-              <div class="col-md-10">
-                <img class="img-fluid" src="assets/img/08.png" />
-              </div>
-
-            </div>
-
-          </div>
-          <img class="mobileShow" height="50" src="assets/img/tedxmnnit logo.png" style="display: none;" width="250">
-          <div class="col-md d-flex  justify-content-center align-items-center position-relative" data-aos="fade-up"
-            data-aos-delay="250">
-            <div class="d-flex flex-column align-items-center">
-              <div class="vl"></div>
-              <h2>18<sup>th</sup> November | MNNIT ALLAHABAD</h2>
-              <h1>Kuch to krenge</h1>
-              <!-- <a href="https://rzp.io/l/tedxmnnit" class="btn-get-started scrollto">Buy Tickets</a> -->
-              <a onclick="alert('Coming soon');" class="btn-get-started scrollto">Buy Tickets</a>
-              <div class="vl"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <main id="main">
-
-      <section id="about">
-        <div class="container">
-          <div class="section-title">
-            <h2>About Us</h2>
-          </div>
-          <div class="card-columns row d-flex justify-content-around">
-            <style>
-              .qq {
-                margin-left: auto;
-                margin-right: auto;
-              }
-
-              .mycard {
-                max-width: 400px;
-              }
-            </style>
-            <div class="col col-lg-4 col-sm-12 row justify-content-center">
-              <div class="col  mycard card card-gap" style="width: 24rem;" data-aos="fade-up">
-                <div class="card-body about-cards">
-                  <!-- <h5 class="card-title">Card title</h5> -->
-                  <img src="/assets/img/ted-logo.jpg" style="margin: 2vh;">
-                  <br>
-                  <p class="card-text">TED is an annual event where the world’s leading thinkers and doers are invited
-                    to share their passions. 'TED' stands for Technology. Entertainment. Design: three broad subject
-                    areas that are shaping the future.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col col-lg-4 col-sm-12 row justify-content-center">
-              <div class="col   mycard card card-gap" style="width: 24rem;" data-aos="fade-up">
-                <div class="card-body about-cards">
-                  <img src="/assets/img/tedxlogo.jpg" style="margin: 2vh;">
-                  <br>
-                  <p class="card-text">In the spirit of ideas worth spreading, TEDx is a program of local,
-                    self-organized events that bring people together to share a TED-like experience. These local,
-                    self-organized events are branded TEDx.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col col-lg-4 col-sm-12 row justify-content-center">
-              <div class="col  mycard card card-gap" style="width: 24rem;" data-aos="fade-up">
-                <br>
-                <div class="card-body about-cards">
-                  <img src="/assets/img/tedxmnnit logo.png"
-                    style="max-height: 80px; max-width: 160px; margin-bottom: 2vh;">
-                  <p class="card-text">Institutions in India foster ground-breaking research, extraordinary ideas, and
-                    remarkable people, TEDxMNNIT looks forward to showcasing this brilliance and enabling these great
-                    ideas to be put into action.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-  </div>
-  </section>
-
-
-  <section id="team" class="team">
-    <div class="container">
-      <div class="section-title">
-        <h2>The Event</h2>
-      </div>
-
-      <div class="container past-events">
-        <div class="row justify-content-around">
-          <div class="col-md-6 d-flex flex-column justify-content-evenly align-content-center">
-            <div class="year-title" data-aos="fade-up">
-              <div class="year-title-bg">2023</div>
-              <p class="year-title-p">________ &nbsp 18th November</p>
-            </div>
-            <div>
-              <h2 class="" style="color:#E62B1E;" data-aos="fade-up">Kuch to karenge</h2>
-              <p class="year-section-p" data-aos="fade-up">
-                Be it during entrance preparation, college or even your internships, we are sure there have been times
-                when you’ve felt lost in your life. Sometimes things don’t go as planned and chaos follows. We feel
-                scared and vulnerable. But sometimes these moments become the defining points in one’s life. It teaches
-                you to remain calm, composed and stay strong in the face of adversity. Thus, embrace the chaos. </p>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex flex-column justify-content-evenly align-content-center">
-            <img class="image-fluid" data-aos="fade-left" src="assets/img/02.png">
-          </div>
-        </div>
-<!-- 
+						<div class="container past-events">
+							<div class="row justify-content-around">
+								<div
+									class="col-md-6 d-flex flex-column justify-content-evenly align-content-center"
+								>
+									<div class="year-title" data-aos="fade-up">
+										<div class="year-title-bg">2023</div>
+										<p class="year-title-p">________ &nbsp 19th November</p>
+									</div>
+									<div>
+										<h2 class="" style="color: #e62b1e" data-aos="fade-up">
+											Navigating Uncharted Waters
+										</h2>
+										<p class="year-section-p" data-aos="fade-up">
+											"There's a first time for everything". Like sailors
+											setting out to explore new worlds, valiantly fighting back
+											the relentless seas, sometimes we too must tread
+											unexplored territories to achieve the greatest victories
+											in life. This is a story of people put to test by
+											unprecedented times, and them winning over the
+											adversities. TEDX MNNIT cherishes the thought of
+											exploration and risk taking to redefine the barrier of
+											one's potential, and brings forth esteemed personalities
+											who've been pushing the conventional horizon to emerge out
+											triumphant amidst all the challenges.
+										</p>
+									</div>
+								</div>
+								<div
+									class="col-md-4 d-flex flex-column justify-content-evenly align-content-center"
+								>
+									<img
+										class="image-fluid"
+										data-aos="fade-left"
+										src="assets/img/13.png"
+									/>
+								</div>
+							</div>
+							<!-- 
         <div class="container"  style="margin-left: auto; margin-right: auto; width: 92.5%; margin-top: 5%; padding-left: 10 !important;">
           <div class="row">
             <h3 class="text-center">Speakers</h3>
@@ -318,531 +440,914 @@
             </div>
           </div>
         </div> -->
-      </div>
+						</div>
+					</div>
+				</section>
 
+				<section id="past-team" class="team">
+					<div class="container">
+						<div class="section-title">
+							<h2>Past Events</h2>
+						</div>
 
-    </div>
-    </div>
-  </section>
+						<div class="container past-events">
+							<div class="row justify-content-around past-event-flip">
+								<div
+									class="col-md-6 d-flex flex-column justify-content-evenly align-content-center"
+								>
+									<div class="year-title" data-aos="fade-up">
+										<div class="year-title-bg">2022</div>
+										<p class="year-title-p">________ &nbsp 9th April</p>
+									</div>
+									<div>
+										<h2 class="" style="color: #e62b1e" data-aos="fade-up">
+											Embrace the Chaos
+										</h2>
+										<p class="year-section-p" data-aos="fade-up">
+											Be it during entrance preparation, college or even your
+											internships, we are sure there have been times when you’ve
+											felt lost in your life. Sometimes things don’t go as
+											planned and chaos follows. We feel scared and vulnerable.
+											But sometimes these moments become the defining points in
+											one’s life. It teaches you to remain calm, composed and
+											stay strong in the face of adversity. Thus, embrace the
+											chaos.
+										</p>
+									</div>
+								</div>
+								<div
+									class="col-md-4 d-flex flex-column justify-content-evenly align-content-center"
+								>
+									<img
+										class="image-fluid"
+										data-aos="fade-left"
+										src="assets/img/02.png"
+									/>
+								</div>
+							</div>
 
-  <section id="past-team" class="team">
-    <div class="container">
-      <div class="section-title">
-        <h2>Past Events</h2>
-      </div>
+							<div
+								class="container"
+								style="
+									margin-left: auto;
+									margin-right: auto;
+									width: 92.5%;
+									margin-top: 5%;
+									padding-left: 10 !important;
+								"
+							>
+								<div class="row">
+									<h3 class="text-center">Speakers</h3>
+								</div>
+								<div class="row slider spk-crd">
+									<div class="card">
+										<img
+											src="./assets/img/team/2022/AKR2011.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Anil K. Rajvanshi</h3>
+											<p class="speaker-info">
+												Padma Shri Awardee <br />
+												Director,NARI
+											</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/2022/Ipsa_DP_2.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Ispa Jain</h3>
+											<p class="speaker-info">
+												Science Illustrator,<br />
+												IISc graduate in Molecular Biology
+											</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/2022/Anu-Singh-Choudhary.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Anu Singh Choudhary</h3>
+											<p class="speaker-info">
+												Producer,screenwriter and Author<br />Co-Producer, ALMA
+												MATTERS;Inside IIT dream
+											</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/2022/karan-chauhan.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Karan Chauhan</h3>
+											<p class="speaker-info">
+												Comedian, Illusionist<br />Host of The Karan Chauhan
+												Show
+											</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/2022/keshav-maheshwari.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Keshav Maheshwari</h3>
+											<p class="speaker-info">
+												Whole Time Executive,<br />
+												Allen Career Institute
+											</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/2022/Nirupama-Kotru-.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Nirupama Kotru</h3>
+											<p class="speaker-info">
+												Joint Secretary and Finanacial Adviser,<br />Ministry of
+												Coal and Mines
+											</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/2022/Punit 2.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Punit K. Goyal</h3>
+											<p class="speaker-info">Co-Founder at BluSmart</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/2022/Saloni Khanna.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Saloni Khanna</h3>
+											<p class="speaker-info">
+												Co-Founder of Skill-Up<br />Asst. Professor
+												Economics,<br />
+												SBSEC Delhi University
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-      <div class="container past-events">
-        <div class="row justify-content-around past-event-flip">
-          <div class="col-md-6 d-flex flex-column justify-content-evenly align-content-center">
-            <div class="year-title" data-aos="fade-up">
-              <div class="year-title-bg">2022</div>
-              <p class="year-title-p">________ &nbsp 9th April</p>
-            </div>
-            <div>
-              <h2 class="" style="color:#E62B1E;" data-aos="fade-up">Embrace the Chaos</h2>
-              <p class="year-section-p" data-aos="fade-up">
-                Be it during entrance preparation, college or even your internships, we are sure there have been times
-                when you’ve felt lost in your life. Sometimes things don’t go as planned and chaos follows. We feel
-                scared and vulnerable. But sometimes these moments become the defining points in one’s life. It teaches
-                you to remain calm, composed and stay strong in the face of adversity. Thus, embrace the chaos. </p>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex flex-column justify-content-evenly align-content-center">
-            <img class="image-fluid" data-aos="fade-left" src="assets/img/02.png">
-          </div>
-        </div>
+						<div class="container past-events">
+							<div class="row justify-content-around">
+								<div
+									class="col-md-6 d-flex flex-column justify-content-evenly align-content-center"
+								>
+									<div class="year-title" data-aos="fade-up">
+										<div class="year-title-bg">2018</div>
+										<p class="year-title-p">________ &nbsp 8th April</p>
+									</div>
+									<div>
+										<h2 class="" style="color: #e62b1e" data-aos="fade-up">
+											Behind The Curtains
+										</h2>
+										<p class="year-section-p" data-aos="fade-up">
+											All the world’s a stage. We think that what we see is all
+											there is but there’s so much that goes unexplored,
+											untraversed, and unheard-of. ‘Behind the Curtains’ makes
+											you think about the ideas that have never hit your
+											subconscious and present solutions to problems that you
+											thought were impossible!
+										</p>
+									</div>
+								</div>
+								<div
+									class="col-md-4 d-flex flex-column justify-content-evenly align-content-center"
+								>
+									<img
+										class="image-fluid"
+										data-aos="fade-left"
+										src="assets/img/07.png"
+									/>
+								</div>
+							</div>
 
-        <div class="container"  style="margin-left: auto; margin-right: auto; width: 92.5%; margin-top: 5%; padding-left: 10 !important;">
-          <div class="row">
-            <h3 class="text-center">Speakers</h3>
-          </div>
-          <div class="row  slider spk-crd">
-            <div class="card" >
-              <img src="./assets/img/team/2022/AKR2011.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Anil K. Rajvanshi</h3>
-                <p class="speaker-info">Padma Shri Awardee <br> Director,NARI</p>
-              </div>
-            </div>
-            <div class="card" >
-              <img src="./assets/img/team/2022/Ipsa_DP_2.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Ispa Jain</h3>
-                <p class="speaker-info">Science Illustrator,<br> IISc graduate in Molecular Biology</p>
-              </div>
-            </div>
-            <div class="card" >
-              <img src="./assets/img/team/2022/Anu-Singh-Choudhary.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Anu Singh Choudhary</h3>
-                <p class="speaker-info">Producer,screenwriter and Author<br>Co-Producer, ALMA MATTERS;Inside IIT dream</p>
-              </div>
-            </div>
-            <div class="card" >
-              <img src="./assets/img/team/2022/karan-chauhan.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Karan Chauhan</h3>
-                <p class="speaker-info">Comedian, Illusionist<br>Host of The Karan Chauhan Show</p>
-              </div>
-            </div>
-            <div class="card" >
-              <img src="./assets/img/team/2022/keshav-maheshwari.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Keshav Maheshwari</h3>
-                <p class="speaker-info">Whole Time Executive,<br> Allen Career Institute</p>
-              </div>
-            </div>
-            <div class="card" >
-              <img src="./assets/img/team/2022/Nirupama-Kotru-.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Nirupama Kotru</h3>
-                <p class="speaker-info">Joint Secretary and Finanacial Adviser,<br>Ministry of Coal and Mines</p>
-              </div>
-            </div>
-            <div class="card" >
-              <img src="./assets/img/team/2022/Punit 2.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Punit K. Goyal</h3>
-                <p class="speaker-info">Co-Founder at BluSmart</p>
-              </div>
-            </div>
-            <div class="card" >
-              <img src="./assets/img/team/2022/Saloni Khanna.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Saloni Khanna</h3>
-                <p class="speaker-info">Co-Founder of Skill-Up<br>Asst. Professor Economics,<br> SBSEC Delhi University</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+							<div
+								class="container"
+								style="
+									margin-left: auto;
+									margin-right: auto;
+									width: 92.5%;
+									margin-top: 5%;
+									padding-left: 10 !important;
+								"
+							>
+								<div class="row">
+									<h3 class="text-center">Speakers</h3>
+								</div>
+								<div class="row slider spk-crd">
+									<div class="card">
+										<img
+											src="./assets/img/team/Gaurang Das.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Gauranga Das</h3>
+											<p class="speaker-info">Director, GEV</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/Smita Majumder.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Smita Majumder</h3>
+											<p class="speaker-info">
+												Founder, OYES - India and Youngpreneurs India
+											</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/Chandni Di.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Chandni Di</h3>
+											<p class="speaker-info">Social Worker</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/Prem Kumar.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Prem Kumar Singh</h3>
+											<p class="speaker-info">Mountaineer</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/bani Yadav.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Bani Yadav</h3>
+											<p class="speaker-info">Woman Car Rallyist</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/Chhaya Savita Pushpa Champa.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Chhaya Savita Pushpa Champa</h3>
+											<p class="speaker-info">Project Shakti</p>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											src="./assets/img/team/U K Mishra.jpg"
+											class="card-img-top img-fluid speaker-img"
+											alt="..."
+										/>
+										<div class="card-body">
+											<h3 class="speaker-name">Dr. UK Mishra</h3>
+											<p class="speaker-info">
+												President, National Sports Academy
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-      <div class="container past-events">
-        <div class="row justify-content-around">
-          <div class="col-md-6 d-flex flex-column justify-content-evenly align-content-center">
-            <div class="year-title" data-aos="fade-up">
-              <div class="year-title-bg">2018</div>
-              <p class="year-title-p">________ &nbsp 8th April</p>
-            </div>
-            <div>
-              <h2 class="" style="color:#E62B1E;" data-aos="fade-up">Behind The Curtains</h2>
-              <p class="year-section-p" data-aos="fade-up">
-                All the world’s a stage. We think that what we see is all there is but there’s so much that goes
-                unexplored, untraversed, and unheard-of. ‘Behind the Curtains’ makes you think about the ideas that have
-                never hit your subconscious and present solutions to problems that you thought were impossible!
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex flex-column justify-content-evenly align-content-center">
-            <img class="image-fluid" data-aos="fade-left" src="assets/img/07.png">
-          </div>
-        </div>
+						<div class="container past-events" style="margin-top: 5%">
+							<div class="row justify-content-around past-event-flip">
+								<div
+									class="col-md-6 d-flex flex-column justify-content-evenly align-content-center"
+								>
+									<div class="year-title" data-aos="fade-up">
+										<div class="year-title-bg">2017</div>
+										<p class="year-title-p">________ &nbsp 2nd April</p>
+									</div>
+									<div>
+										<h2 class="" style="color: #e62b1e" data-aos="fade-up">
+											Indian Paradigm Shift
+										</h2>
+										<p class="year-section-p" data-aos="fade-up">
+											Paradigm Shift is a change from one way of thinking to
+											another. It's a revolution, a transformation, a sort of
+											metamorphosis. Being present in this moment, right now,
+											unlocks unlimited creativity and allows transformational
+											insights for every person willing to change. MNNIT
+											Allahabad's first-ever TEDxMNNIT revolved around
+											encouraging people to take intentional action by changing
+											the paradigm.
+										</p>
+									</div>
+								</div>
+								<div
+									class="col-md-4 d-flex flex-column justify-content-evenly align-content-center"
+								>
+									<img
+										class="image-fluid"
+										src="assets/img/04.png"
+										data-aos="fade-right"
+									/>
+								</div>
+							</div>
+							<div>
+								<div
+									class="container"
+									style="
+										margin-left: auto;
+										margin-right: auto;
+										width: 92.5%;
+										margin-top: 5%;
+										padding-left: 10 !important;
+									"
+								>
+									<div class="row">
+										<h3 class="text-center">Speakers</h3>
+									</div>
+									<div class="row slider spk-crd">
+										<div class="card">
+											<img
+												src="./assets/img/team/Bhatu Sawant.jpg"
+												class="card-img-top img-fluid speaker-img"
+												alt="..."
+											/>
+											<div class="card-body">
+												<h3 class="speaker-name">Bhatu Sawant</h3>
+												<p class="speaker-info">
+													CEO of Samarth Bharat Vyaspeeth (SBV)
+												</p>
+											</div>
+										</div>
+										<div class="card">
+											<img
+												src="./assets/img/team/Sachin garg.jpg"
+												class="card-img-top img-fluid speaker-img"
+												alt="..."
+											/>
+											<div class="card-body">
+												<h3 class="speaker-name">Sachin Garg</h3>
+												<p class="speaker-info">Indian bestselling novelist</p>
+											</div>
+										</div>
+										<div class="card">
+											<img
+												src="./assets/img/team/ankita.jpg"
+												class="card-img-top img-fluid speaker-img"
+												alt="..."
+											/>
+											<div class="card-body">
+												<h3 class="speaker-name">Ankita Sinha</h3>
+												<p class="speaker-info">Adventure blogger</p>
+											</div>
+										</div>
+										<div class="card">
+											<img
+												src="./assets/img/team/sandeep desai.jpg"
+												class="card-img-top img-fluid speaker-img"
+												alt="..."
+											/>
+											<div class="card-body">
+												<h3 class="speaker-name">Sandeep Desai</h3>
+												<p class="speaker-info">
+													Master of T'ai chi, Ashtanga Yoga and Martial Arts
+												</p>
+											</div>
+										</div>
+										<div class="card">
+											<img
+												src="./assets/img/team/Moumita Dutta.jpg"
+												class="card-img-top img-fluid speaker-img"
+												alt="..."
+											/>
+											<div class="card-body">
+												<h3 class="speaker-name">Moumita Dutta</h3>
+												<p class="speaker-info">ISRO scientists</p>
+											</div>
+										</div>
+										<div class="card">
+											<img
+												src="./assets/img/team/Rashmi Tiwari.jpg"
+												class="card-img-top img-fluid speaker-img"
+												alt="..."
+											/>
+											<div class="card-body">
+												<h3 class="speaker-name">Rashmi Tiwari</h3>
+												<p class="speaker-info">
+													Director of Aahan Tribal Foundation of India
+												</p>
+											</div>
+										</div>
+										<div class="card">
+											<img
+												src="./assets/img/team/Rupani Barla.jpg"
+												class="card-img-top img-fluid speaker-img"
+												alt="..."
+											/>
+											<div class="card-body">
+												<h3 class="speaker-name">Rupani Barla</h3>
+												<p class="speaker-info">
+													A small tribal girl who was saved by Dr. Rashmi Tiwari
+												</p>
+											</div>
+										</div>
+										<div class="card">
+											<img
+												src="./assets/img/team/Vasant.jpg"
+												class="card-img-top img-fluid speaker-img"
+												alt="..."
+											/>
+											<div class="card-body">
+												<h3 class="speaker-name">Vasant Shinde</h3>
+												<p class="speaker-info">
+													Internationally renowned Archaeologist
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-        <div class="container"
-          style="margin-left: auto; margin-right: auto; width: 92.5%; margin-top: 5%; padding-left: 10 !important;">
-          <div class="row">
-            <h3 class="text-center">Speakers</h3>
-          </div>
-          <div class="row  slider spk-crd">
-            <div class="card">
-              <img src="./assets/img/team/Gaurang Das.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Gauranga Das</h3>
-                <p class="speaker-info">Director, GEV</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./assets/img/team/Smita Majumder.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Smita Majumder</h3>
-                <p class="speaker-info">Founder, OYES - India and Youngpreneurs India</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./assets/img/team/Chandni Di.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Chandni Di</h3>
-                <p class="speaker-info">Social Worker</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./assets/img/team/Prem Kumar.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Prem Kumar Singh</h3>
-                <p class="speaker-info">Mountaineer</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./assets/img/team/bani Yadav.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Bani Yadav</h3>
-                <p class="speaker-info">Woman Car Rallyist</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./assets/img/team/Chhaya Savita Pushpa Champa.jpg" class="card-img-top img-fluid speaker-img"
-                alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Chhaya Savita Pushpa Champa</h3>
-                <p class="speaker-info">Project Shakti</p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./assets/img/team/U K Mishra.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-              <div class="card-body">
-                <h3 class="speaker-name">Dr. UK Mishra</h3>
-                <p class="speaker-info">President, National Sports Academy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="container past-events" style="margin-top: 5%;">
-        <div class="row justify-content-around past-event-flip">
-          <div class="col-md-6 d-flex flex-column justify-content-evenly align-content-center">
-            <div class="year-title" data-aos="fade-up">
-              <div class="year-title-bg">2017</div>
-              <p class="year-title-p">________ &nbsp 2nd April</p>
-            </div>
-            <div>
-              <h2 class="" style="color:#E62B1E;" data-aos="fade-up">Indian Paradigm Shift</h2>
-              <p class="year-section-p" data-aos="fade-up">
-                Paradigm Shift is a change from one way of thinking to another. It's a revolution, a transformation, a
-                sort of metamorphosis. Being present in this moment, right now, unlocks unlimited creativity and allows
-                transformational insights for every person willing to change. MNNIT Allahabad's first-ever TEDxMNNIT
-                revolved around encouraging people to take intentional action by changing the paradigm.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex flex-column justify-content-evenly align-content-center">
-            <img class="image-fluid" src="assets/img/04.png" data-aos="fade-right">
-          </div>
-        </div>
-        <div>
-          <div class="container"
-            style="margin-left: auto; margin-right: auto; width: 92.5%; margin-top: 5%; padding-left: 10 !important;">
-            <div class="row">
-              <h3 class="text-center">Speakers</h3>
-            </div>
-            <div class="row  slider spk-crd">
-              <div class="card">
-                <img src="./assets/img/team/Bhatu Sawant.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-                <div class="card-body">
-                  <h3 class="speaker-name">Bhatu Sawant</h3>
-                  <p class="speaker-info">CEO of Samarth Bharat Vyaspeeth (SBV)</p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="./assets/img/team/Sachin garg.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-                <div class="card-body">
-                  <h3 class="speaker-name">Sachin Garg</h3>
-                  <p class="speaker-info">Indian bestselling novelist</p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="./assets/img/team/ankita.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-                <div class="card-body">
-                  <h3 class="speaker-name">Ankita Sinha</h3>
-                  <p class="speaker-info">Adventure blogger</p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="./assets/img/team/sandeep desai.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-                <div class="card-body">
-                  <h3 class="speaker-name">Sandeep Desai</h3>
-                  <p class="speaker-info">Master of T'ai chi, Ashtanga Yoga and Martial Arts</p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="./assets/img/team/Moumita Dutta.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-                <div class="card-body">
-                  <h3 class="speaker-name">Moumita Dutta</h3>
-                  <p class="speaker-info">ISRO scientists</p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="./assets/img/team/Rashmi Tiwari.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-                <div class="card-body">
-                  <h3 class="speaker-name">Rashmi Tiwari</h3>
-                  <p class="speaker-info">Director of Aahan Tribal Foundation of India</p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="./assets/img/team/Rupani Barla.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-                <div class="card-body">
-                  <h3 class="speaker-name">Rupani Barla</h3>
-                  <p class="speaker-info">A small tribal girl who was saved by Dr. Rashmi Tiwari</p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="./assets/img/team/Vasant.jpg" class="card-img-top img-fluid speaker-img" alt="...">
-                <div class="card-body">
-                  <h3 class="speaker-name">Vasant Shinde</h3>
-                  <p class="speaker-info">Internationally renowned Archaeologist</p>
-                </div>
-              </div>
-            </div>
+				<!-- ======= GAllery Section ======= -->
+				<section id="portfolio" class="portfolio">
+					<div class="container">
+						<div class="section-title">
+							<h2>Gallery</h2>
+						</div>
 
-          </div>
-        </div>
-      </div>
-  </section>
+						<div
+							class="row portfolio-container"
+							data-aos="fade-up"
+							data-aos-delay="150"
+						>
+							<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+								<img
+									src="assets/img/portfolio/img1.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <a href="assets/img/portfolio/img1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
 
-  <!-- ======= GAllery Section ======= -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img7.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img7.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
 
-      <div class="section-title">
-        <h2>Gallery</h2>
-      </div>
+							<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+								<img
+									src="assets/img/portfolio/img2.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <a href="assets/img/portfolio/img2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
 
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+							<div class="col-lg-4 col-md-6 portfolio-item filter-card">
+								<img
+									src="assets/img/portfolio/img9.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <a href="assets/img/portfolio/img9.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <img src="assets/img/portfolio/img1.jpg" class="img-fluid" alt="">
-          <!-- <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/img1.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div> -->
-        </div>
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img6.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img6.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <img src="assets/img/portfolio/img7.jpg" class="img-fluid" alt="">
-          <!-- <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/img7.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div> -->
-        </div>
+							<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+								<img
+									src="assets/img/portfolio/img4.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <a href="assets/img/portfolio/img4.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <img src="assets/img/portfolio/img2.jpg" class="img-fluid" alt="">
-          <!-- <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/img2.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div> -->
-        </div>
+							<div
+								class="col-lg-4 col-md-6 portfolio-item filter-card"
+							>
+								<img
+									src="assets/img/portfolio/img11.jpg"
+									class="img-fluid"
+									alt=""
+									style="height: 100%"
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <a href="assets/img/portfolio/img11.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <img src="assets/img/portfolio/img9.jpg" class="img-fluid" alt="">
-          <!-- <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/img9.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div> -->
-        </div>
+							<div
+								class="col-lg-4 col-md-6 portfolio-item filter-card"
+							>
+								<img
+									src="assets/img/portfolio/img10.jpg"
+									class="img-fluid"
+									alt=""
+									style="height: 100%"
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <a href="assets/img/portfolio/img10.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <img src="assets/img/portfolio/img6.jpg" class="img-fluid" alt="">
-          <!-- <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/img6.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div> -->
-        </div>
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img8.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
+              
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img3.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
+              
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img5.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
+              
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img12.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
+              
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img13.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
+              
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img14.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
+              
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img15.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
+              
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img16.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
+              
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img17.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
+              
+							<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+								<img
+									src="assets/img/portfolio/img18.jpg"
+									class="img-fluid"
+									alt=""
+								/>
+								<!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              </div> -->
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End GAllery Section -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <img src="assets/img/portfolio/img4.jpg" class="img-fluid" alt="">
-          <!-- <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/img4.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div> -->
-        </div>
+				<section id="pricing" class="pricing">
+					<!-- <div class="section-title">
+          <h2>Buy Tickets</h2>
+        </div> -->
+					<div class="container">
+						<div class="row d-flex justify-content-around">
+							<div
+								class="col-md offset-1 position-relative align-self-center"
+								data-aos="fade-left"
+							>
+								<img class="img-fluid" src="/assets/img/12.png" />
+							</div>
+							<div class="col-md position-relative">
+								<div class="p-3" data-aos="fade-up">
+									<div class="buy-ticket-heading">
+										<h1>Join us for</h1>
+										<h1 style="color: #e62b1e">Ideas Worth Sharing!</h1>
+									</div>
+									<br />
+									<br />
+									<div class="" data-aos="fade-up">
+										<h2 style="letter-spacing: 0.2em">
+											<span style="color: #e62b1e">Date:</span> 19th November
+											2022
+										</h2>
+										<h2 style="letter-spacing: 0.2em">
+											<span style="color: #e62b1e">Time:</span> 10:00 AM To 3:00
+											PM
+										</h2>
+										<h2 style="letter-spacing: 0.2em">
+											<span style="color: #e62b1e">Venue:</span> Seminar Hall,
+											MNNIT Allahabad
+										</h2>
+										<h2 style="letter-spacing: 0.2em">
+											<span style="color: #e62b1e">Schedule: </span>
+											<!-- <u><a href="/assets/TEDxMNNIT Schedule.pdf"> Click Here</h2></a></u> -->
+											<u><a onclick="alert('Coming soon');"> Coming soon</a></u>
+										</h2>
+										<!-- <a href="https://rzp.io/l/tedxmnnit" class="btn-get-started ">Buy Tickets</a -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<!-- End #main -->
+		</div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="height: 260px;">
-          <img src="assets/img/portfolio/img10.jpg" class="img-fluid" alt="" style="height: 100%;">
-          <!-- <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/img10.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div> -->
-        </div>
+		<!-- ======= Footer ======= -->
+		<footer id="footer">
+			<div class="footer-top">
+				<div class="container">
+					<hr style="color: grey; opacity: 80%" />
+					<div class="row d-flex justify-content-between">
+						<div class="col-lg-4 col-md-6">
+							<div class="footer-info">
+								<h2 class="logo">
+									<img
+										src="assets/img/tedxmnnit logo.png"
+										alt=""
+										style="max-width: 100%; height: auto"
+									/>
+								</h2>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 text-center">
+							<h4>
+								Motilal Nehru National Institute of Technology Allahabad -
+								211004
+							</h4>
+							<div class="social-links mt-3">
+								<a href="https://twitter.com/tedxmnnit" class="twitter"
+									><i class="bx bxl-twitter"></i
+								></a>
+								<a href="https://www.facebook.com/TEDxMNNIT" class="facebook"
+									><i class="bx bxl-facebook"></i
+								></a>
+								<a
+									href="https://www.instagram.com/tedxmnnit/?hl=en"
+									class="instagram"
+									><i class="bx bxl-instagram"></i
+								></a>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 footer-newsletter text-center">
+							<br />
+							<h4 style="font-family: 'Lato' !important">
+								<i class="fa fa-phone" aria-hidden="true"> </i> +91 829 036 8209
+							</h4>
+							<h4 style="font-family: 'Lato' !important">
+								<i class="fa fa-envelope" aria-hidden="true"> </i>
+								tedx@mnnit.ac.in
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card" style="height: 233px;">
-          <img src="assets/img/portfolio/img11.jpg" class="img-fluid" alt="" style="height: 100%;">
-          <!-- <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/img11.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div> -->
-        </div>
+		<a
+			href="#"
+			class="back-to-top d-flex align-items-center justify-content-center"
+			><i class="bi bi-arrow-up-short"></i
+		></a>
+		<div id="preloader"></div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <img src="assets/img/portfolio/img8.jpg" class="img-fluid" alt="">
-          <!-- <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/img8.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div> -->
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End GAllery Section -->
-
-
-
-  <section id="pricing" class="pricing">
-    <!-- <div class="section-title">
-        <h2>Buy Tickets</h2>
-      </div> -->
-    <div class="container ">
-      <div class="row d-flex justify-content-around">
-        <div class="col-md offset-1 position-relative align-self-center" data-aos="fade-left">
-          <img class="img-fluid" src="/assets/img/12.png">
-        </div>
-        <div class="col-md position-relative">
-          <div class="p-3" data-aos="fade-up">
-            <div class="buy-ticket-heading">
-              <h1>Join us for</h1>
-              <h1 style="color: #E62B1E;">Ideas Worth Sharing!</h1>
-            </div>
-            <br>
-            <br>
-            <div class="" data-aos="fade-up">
-              <h2 style="letter-spacing: 0.2em;"><span style="color: #E62B1E;">Date:</span> 18th November 2022</h2>
-              <h2 style="letter-spacing: 0.2em;"><span style="color: #E62B1E;">Time:</span> 10:00 AM To 3:00 PM</h2>
-              <h2 style="letter-spacing: 0.2em;"><span style="color: #E62B1E;">Venue:</span> Seminar Hall, MNNIT
-                Allahabad</h2>
-              <h2 style="letter-spacing: 0.2em;"><span style="color: #E62B1E;">Schedule: </span>
-                <!-- <u><a href="/assets/TEDxMNNIT Schedule.pdf"> Click Here</h2></a></u> -->
-                <u><a onclick="alert('Coming soon');"> Coming soon</h2></a></u>
-                <!-- <a href="https://rzp.io/l/tedxmnnit" class="btn-get-started ">Buy Tickets</a -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  </main><!-- End #main -->
-  </div>
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <hr style="color: grey; opacity: 80%; ">
-        <div class="row d-flex justify-content-between">
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h2 class="logo">
-                <img src="assets/img/tedxmnnit logo.png" alt="" style="max-width: 100%;  
-                height: auto;  ">
-              </h2>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 text-center">
-            <h4>Motilal Nehru National Institute of Technology
-              Allahabad - 211004 </h4>
-            <div class="social-links mt-3">
-              <a href="https://twitter.com/tedxmnnit" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="https://www.facebook.com/TEDxMNNIT" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/tedxmnnit/?hl=en" class="instagram"><i
-                  class="bx bxl-instagram"></i></a>
-
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 footer-newsletter text-center">
-            <br>
-            <h4 style="font-family: 'Lato'!important;"><i class="fa fa-phone" aria-hidden="true"> </i> +91 739 090 7750
-            </h4>
-            <h4 style="font-family: 'Lato'!important;"><i class="fa fa-envelope" aria-hidden="true"> </i>
-              tedx@mnnit.ac.in</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
-  <script>
-    $('.slider').slick({
-      dots: true,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      autoplay: true,
-      arrows: false,
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 993,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-  </script>
-  <script>
-    VANTA.BIRDS({
-      el: "#vats",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      backgroundColor: 0xffffff,
-      color2: 0x0,
-      birdSize: 0.50,
-      wingSpan: 10.00,
-      quantity: 2.00
-    })
-  </script>
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+		<!-- Vendor JS Files -->
+		<script src="assets/vendor/aos/aos.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+		<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+		<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+		<script>
+			$(".slider").slick({
+				dots: true,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 4,
+				slidesToScroll: 4,
+				autoplay: true,
+				arrows: false,
+				responsive: [
+					{
+						breakpoint: 1200,
+						settings: {
+							slidesToShow: 3,
+							slidesToScroll: 3,
+							infinite: true,
+							dots: true,
+						},
+					},
+					{
+						breakpoint: 993,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 2,
+						},
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+						},
+					},
+					// You can unslick at a given breakpoint now by adding:
+					// settings: "unslick"
+					// instead of a settings object
+				],
+			})
+		</script>
+		<script>
+			VANTA.BIRDS({
+				el: "#vats",
+				mouseControls: true,
+				touchControls: true,
+				gyroControls: false,
+				minHeight: 200.0,
+				minWidth: 200.0,
+				scale: 1.0,
+				scaleMobile: 1.0,
+				backgroundColor: 0xffffff,
+				color2: 0x0,
+				birdSize: 0.5,
+				wingSpan: 10.0,
+				quantity: 2.0,
+			})
+		</script>
+		<!-- Template Main JS File -->
+		<script src="assets/js/main.js"></script>
+	</body>
 </html>
