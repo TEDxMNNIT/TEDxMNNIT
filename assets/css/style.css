@@ -892,6 +892,8 @@ hr {
 }
 .portfolio .portfolio-item p {
 	text-align: center;
+}
+.font-xl {
 	font-size: x-large;
 }
 .portfolio .portfolio-item .portfolio-info {
@@ -914,7 +916,7 @@ hr {
 .portfolio .portfolio-item .portfolio-info p {
 	color: #4c4c4c;
 	font-size: 14px;
-  text-align: left;
+	text-align: left;
 	margin-bottom: 0;
 }
 .portfolio .portfolio-item .portfolio-info .preview-link,
